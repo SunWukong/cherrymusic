@@ -1,0 +1,1102 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stéphan Bellegy <stephan.bellegy@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-04 11:47+0100\n"
+"PO-Revision-Date: 2018-04-29 19:09+0200\n"
+"Last-Translator: Stéphan Bellegy <stephan.bellegy@gmail.com>\n"
+"Language-Team: stephan.bellegy@gmail.com\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: cherrymusicserver/userdb.py:53
+msgid "empty username or password!"
+msgstr "Nom d'utilisateur ou mot de passe non renseigné !"
+
+#: cherrymusicserver/userdb.py:77
+msgid "not a valid password"
+msgstr "Mot de passe invalide"
+
+#: cherrymusicserver/userdb.py:168
+msgid "name must not be empty"
+msgstr "le nom doit être renseigné"
+
+#: cherrymusicserver/userdb.py:170
+msgid "password must not be empty"
+msgstr "le mot de passe doit être renseigné"
+
+#: cherrymusicserver/i18n_client.py:3
+msgid "track has no path set!"
+msgstr "le chemin de la piste n'est pas renseigné !"
+
+#: cherrymusicserver/i18n_client.py:4
+msgid "track has no label set!"
+msgstr "la piste n'a pas d'étiquette !"
+
+#: cherrymusicserver/cherrymodel.py:130 cherrymusicserver/cherrymodel.py:369
+#, python-format
+msgid "Error listing directory %s: %s"
+msgstr "Erreur lors de la lecture du dossier %s: %s"
+
+#: cherrymusicserver/cherrymodel.py:205
+#, python-format
+msgid "%(user)s searched for '%(term)s'"
+msgstr "%(user)s ont recherché '%(term)s'"
+
+#: cherrymusicserver/cherrymodel.py:208
+msgid "sorting DB results using ResultOrder"
+msgstr "Tri des données à l'aide de l'algorithme ResultOrder"
+
+#: cherrymusicserver/cherrymodel.py:220
+msgid "checking and classifying results:"
+msgstr "vérification et tri du résultat :"
+
+#: cherrymusicserver/cherrymodel.py:236
+#, python-format
+msgid "Error fetching version info: %s"
+msgstr "Erreur lors de la récupération de l'information de version : %s"
+
+#: cherrymusicserver/migrations/migration_0001.py:53
+#, python-brace-format
+msgid ""
+"\n"
+"==========================================================================\n"
+"Oops!\n"
+"\n"
+"CherryMusic changed some file locations while you weren't looking.\n"
+"(To better comply with best practices, if you wanna know.)\n"
+"\n"
+"To continue, please move the following:\n"
+"\n"
+"$ mv {src} {tgt}"
+msgstr ""
+"\n"
+"==========================================================================\n"
+"Oops!\n"
+"\n"
+"CherryMusic a changé l'emplacement de certains fichiers pendant que vous "
+"regardiez ailleurs.\n"
+"(Afin de se conformer à l'état de l'art si vous voulez savoir pourquoi.)\n"
+"\n"
+"Pour continuer, merci de déplacer le fichier suivant :\n"
+"\n"
+"$ mv {src} {tgt}"
+
+#: cherrymusicserver/util.py:218
+#, python-format
+msgid "%d years ago"
+msgstr "il y a %d ans"
+
+#: cherrymusicserver/util.py:220
+msgid "a year ago"
+msgstr "il y a un an"
+
+#: cherrymusicserver/util.py:223
+#, python-format
+msgid "%d months ago"
+msgstr "il y a %d mois"
+
+#: cherrymusicserver/util.py:225
+msgid "a month ago"
+msgstr "il y a un mois"
+
+#: cherrymusicserver/util.py:228
+#, python-format
+msgid "%d weeks ago"
+msgstr "il y a %d semaines"
+
+#: cherrymusicserver/util.py:230
+msgid "a week ago"
+msgstr "il y a une semaine"
+
+#: cherrymusicserver/util.py:233
+#, python-format
+msgid "%d days ago"
+msgstr "il y a %d jours"
+
+#: cherrymusicserver/util.py:235
+msgid "a day ago"
+msgstr "il y a une journée"
+
+#: cherrymusicserver/util.py:238
+#, python-format
+msgid "%d hours ago"
+msgstr "il y a %d heures"
+
+#: cherrymusicserver/util.py:240
+msgid "an hour ago"
+msgstr "il y a une heure"
+
+#: cherrymusicserver/util.py:242
+msgid "half an hour ago"
+msgstr "il y a une demi-heure"
+
+#: cherrymusicserver/util.py:245
+#, python-format
+msgid "%d minutes ago"
+msgstr "il y a %d minutes"
+
+#: cherrymusicserver/util.py:247
+msgid "a minute ago"
+msgstr "il y a une minute"
+
+#: cherrymusicserver/util.py:249
+msgid "a few seconds ago"
+msgstr "il y a quelques secondes"
+
+#: cherrymusicserver/util.py:253
+#, python-format
+msgid "in %d years"
+msgstr "dans %d ans"
+
+#: cherrymusicserver/util.py:255
+msgid "in a year"
+msgstr "dans un an"
+
+#: cherrymusicserver/util.py:258
+#, python-format
+msgid "in %d months"
+msgstr "dans %d mois"
+
+#: cherrymusicserver/util.py:260
+msgid "in a month"
+msgstr "dans un mois"
+
+#: cherrymusicserver/util.py:263
+#, python-format
+msgid "in %d weeks"
+msgstr "dans %d semaines"
+
+#: cherrymusicserver/util.py:265
+msgid "in a week"
+msgstr "dans une semaine"
+
+#: cherrymusicserver/util.py:268
+#, python-format
+msgid "in %d days"
+msgstr "dans %d jours"
+
+#: cherrymusicserver/util.py:270
+msgid "in a day"
+msgstr "dans un jour"
+
+#: cherrymusicserver/util.py:273
+#, python-format
+msgid "in %d hours"
+msgstr "dans %d heures"
+
+#: cherrymusicserver/util.py:275
+msgid "in an hour"
+msgstr "dans une heure"
+
+#: cherrymusicserver/util.py:277
+msgid "in half an hour"
+msgstr "dans une demi-heure"
+
+#: cherrymusicserver/util.py:280
+#, python-format
+msgid "in %d minutes"
+msgstr "dans %d minutes"
+
+#: cherrymusicserver/util.py:282
+msgid "in a minute"
+msgstr "dans une minutes"
+
+#: cherrymusicserver/util.py:284
+msgid "in a few seconds"
+msgstr "dans quelques secondes"
+
+#: cherrymusicserver/util.py:286
+msgid "just now"
+msgstr "maintenant"
+
+#: cherrymusicserver/util.py:307
+#, python-format
+msgid "Error writing file %(name)r to memory zip"
+msgstr "Erreur lors de l'écriture de l'archive %(name)r en mémoire"
+
+#: cherrymusicserver/sqlitecache.py:130
+msgid "terms must not contain ''"
+msgstr "les paramètres ne doivent pas contenir le caractère ''"
+
+#: cherrymusicserver/sqlitecache.py:173
+#, python-format
+msgid "searching for a maximum of %s files"
+msgstr "À la recherche d'un maximum de %s fichiers"
+
+#: cherrymusicserver/sqlitecache.py:180
+msgid "file id fetching"
+msgstr "récupération de l'ID du fichier"
+
+#: cherrymusicserver/sqlitecache.py:184
+msgid "sorting results by fileid occurrences"
+msgstr "tri du résultat en fonction des occurrences des ID de fichiers"
+
+#: cherrymusicserver/sqlitecache.py:192
+#, python-format
+msgid "querying fullpaths for %s fileIds"
+msgstr "recherche des chemins absolus pour %s IDs de fichiers"
+
+#: cherrymusicserver/sqlitecache.py:195
+#, python-format
+msgid "querying fullpaths for %s fileIds, files only"
+msgstr ""
+"recherche des chemins absolus pour %s IDs de fichiers, uniquement les fichiers"
+
+#: cherrymusicserver/sqlitecache.py:208
+#, python-format
+msgid "media cache cannot listdir %r: path not in database"
+msgstr ""
+"le cache de média ne peut pas parcourir le dossier %r : ce chemin n'est pas "
+"connu de la base de données"
+
+#: cherrymusicserver/sqlitecache.py:309
+#, python-format
+msgid "wrong encoding for filename '%s' (%s)"
+msgstr "Encodage erroné du nom de fichier '%s' (%s)"
+
+#: cherrymusicserver/sqlitecache.py:342
+#, python-format
+msgid "removing dead reference(s): %s \"%s\""
+msgstr "suppression de référence(s) obsolète(s) : %s \"%s\""
+
+#: cherrymusicserver/sqlitecache.py:362
+#, python-format
+msgid "error while removing dead reference(s): %s"
+msgstr "erreur lors de la suppression de référence(s) obsolète(s) : %s"
+
+#: cherrymusicserver/sqlitecache.py:363
+msgid "rolled back to safe state."
+msgstr "Rollback dans un état sûr."
+
+#: cherrymusicserver/sqlitecache.py:380
+#, python-format
+msgid "error removing entry for %s"
+msgstr "erreur lors de la suppression de l'élément %s"
+
+#: cherrymusicserver/sqlitecache.py:458
+#, python-format
+msgid "media base directory: %r"
+msgstr "dossier de base des médias : %r"
+
+#: cherrymusicserver/sqlitecache.py:466
+msgid "running full update..."
+msgstr "mise à jour complète en cours…"
+
+#: cherrymusicserver/sqlitecache.py:470
+msgid "error during media update. database update incomplete."
+msgstr ""
+"erreur lors de l'analyse des médias. Mise à jour de la base de données "
+"incomplète."
+
+#: cherrymusicserver/sqlitecache.py:473
+msgid "media database update complete."
+msgstr "Mise à jour de la base de données des médias terminée."
+
+#: cherrymusicserver/sqlitecache.py:479
+#, python-format
+msgid "updating paths: %s"
+msgstr "mise à jour des chemins : %s"
+
+#: cherrymusicserver/sqlitecache.py:485
+#, python-format
+msgid "path is not in basedir. skipping %r"
+msgstr "chemin en dehors du dossier principal. %r ignoré"
+
+#: cherrymusicserver/sqlitecache.py:487
+#, python-format
+msgid "updating %r..."
+msgstr "mise à jour de %r…"
+
+#: cherrymusicserver/sqlitecache.py:491
+#, python-format
+msgid "update incomplete: %r"
+msgstr "mise à jour incomplète : %r"
+
+#: cherrymusicserver/sqlitecache.py:493
+msgid "done updating paths."
+msgstr "Fin de la mise à jour des dossiers."
+
+#: cherrymusicserver/sqlitecache.py:512
+#, python-format
+msgid "recursive update for %s"
+msgstr "mise à jour récursive de %s"
+
+#: cherrymusicserver/sqlitecache.py:548
+#, python-format
+msgid "error while updating media: %s %s"
+msgstr "erreur lors de la mise à jour du média : %s %s"
+
+#: cherrymusicserver/sqlitecache.py:549
+msgid "rollback to previous commit."
+msgstr "Rollback jusqu'au commit précédent."
+
+#: cherrymusicserver/sqlitecache.py:554
+#, python-format
+msgid "items added %d, removed %d"
+msgstr "%d éléments ajoutés, supprimés : %d"
+
+#: cherrymusicserver/sqlitecache.py:558
+msgid "updating word occurrences..."
+msgstr "mise à jour des occurrences de mots…"
+
+#: cherrymusicserver/sqlitecache.py:602
+#, python-format
+msgid "argument must be an abolute path: \"%s\""
+msgstr "l'argument doit être un chemin absolu : \"%s\""
+
+#: cherrymusicserver/sqlitecache.py:603
+#, python-format
+msgid "argument must be a path in basedir (%s): \"%s\""
+msgstr "l'argument doit être un sous-dossier du dossier principal (%s) : \"%s\""
+
+#: cherrymusicserver/sqlitecache.py:612
+#, python-format
+msgid "parent path not in database: %r"
+msgstr "le chemin parent n'est pas dans la base de données : %r"
+
+#: cherrymusicserver/sqlitecache.py:616
+msgid "shouldn't get here! (argument path not in basedir)"
+msgstr ""
+"on ne devrait pas traîner par ici ! (ce dossier n'est pas dans le dossier "
+"principal)"
+
+#: cherrymusicserver/sqlitecache.py:670
+#, python-format
+msgid "creating database entry for %r"
+msgstr "création d'une entrée dans la base de données pour %r"
+
+#: cherrymusicserver/sqlitecache.py:687
+#, python-format
+msgid "unable to decode filename %r in %r; skipping."
+msgstr "incapable de décoder le nom de fichier %r dans %r, on zappe."
+
+#: cherrymusicserver/sqlitecache.py:695
+#, python-format
+msgid "expecting unicode path, got %s"
+msgstr "chemin unicode attendu mais on a %s"
+
+#: cherrymusicserver/sqlitecache.py:705
+#, python-format
+msgid ""
+"non-root filepaths must be direct relative to parent: path: %s, parent: %s"
+msgstr ""
+"les dossiers non-racine doivent être rattaché directement au parent : "
+"dossier : %s, parent : %s"
+
+#: cherrymusicserver/sqlitecache.py:787
+#, python-format
+msgid "cannot list directory: %s"
+msgstr "incapable de parcourir le dossier : %s"
+
+#: cherrymusicserver/sqlitecache.py:796
+#, python-format
+msgid "file not found: %s. skipping."
+msgstr "fichier introuvable : %s. on zappe."
+
+#: cherrymusicserver/sqlitecache.py:799
+#, python-format
+msgid "file not in basedir: %s. skipping."
+msgstr "fichier en dehors du dossier principal : %s. on zappe."
+
+#: cherrymusicserver/sqlitecache.py:821
+msgid "Loading files database into memory..."
+msgstr "Chargement de la base de données en mémoire…"
+
+#: cherrymusicserver/__init__.py:142
+#, python-format
+msgid ""
+"\n"
+"cherrypy version is too old!\n"
+"Current version: %(current_version)s\n"
+"Required version: %(required_version)s or higher\n"
+msgstr ""
+"\n"
+"la version de cherrypy est obsolète !\n"
+"Version installée : %(current_version)s\n"
+"Version requise : %(required_version)s ou plus récente\n"
+
+#: cherrymusicserver/__init__.py:163
+msgid ""
+"Could not determine cherrypy version. Please install cherrypy using pip or "
+"your OS's package manager. Trying to detect version automatically."
+msgstr ""
+"Incapable de déterminer la version de cherrypy. Merci d'installer cherrypy à "
+"l'aide de pip ou du gestionnaire de paquets de votre système d'exploitation. "
+"Tentative de détection automatique de la version"
+
+#: cherrymusicserver/__init__.py:279
+msgid "database schema update aborted. quitting."
+msgstr ""
+"Interruption de la mise à jour du schéma de la base de données. On quitte."
+
+#: cherrymusicserver/__init__.py:297
+msgid "usernames may only contain letters and digits"
+msgstr "les noms ne peuvent contenir que des lettres et des chiffres"
+
+#: cherrymusicserver/__init__.py:305
+#, python-format
+msgid "user with the name \"%s\" does not exist!"
+msgstr "l'utilisateur appelé \"%s\" n'existe pas !"
+
+#: cherrymusicserver/__init__.py:331
+#, python-format
+msgid "Default configuration file written to %(path)r"
+msgstr "Création du fichier de configuration par défaut : %(path)r"
+
+#: cherrymusicserver/__init__.py:341
+msgid "Invalid basedir. Please provide a valid basedir path."
+msgstr ""
+"Dossier principal invalide. Merci d'indiquer un dossier principal valide."
+
+#: cherrymusicserver/__init__.py:380
+#, python-format
+msgid ""
+"============================================\n"
+"Process id file %s already exists.\n"
+"If you are sure that cherrymusic is not running, you can delete this file and "
+"restart cherrymusic.\n"
+"============================================"
+msgstr ""
+"============================================\n"
+"Le fichier d'identifiant de processus %s existe déjà.\n"
+"Si vous êtes sûr que cherrymusic n'est pas en cours d'exécution, vous pouvez "
+"supprimer ce fichieret redémarrer cherrymusic.\n"
+"============================================"
+
+#: cherrymusicserver/__init__.py:396
+msgid "Error removing pid file, doesn't exist!"
+msgstr ""
+"Erreur lors de la suppression du  fichier d'identifiant de processus : il "
+"n'existe pas ! "
+
+#: cherrymusicserver/__init__.py:510
+#, python-format
+msgid "Starting server on port %s ..."
+msgstr "Démarrage du serveur sur le port %s…"
+
+#: cherrymusicserver/__init__.py:531
+#, python-brace-format
+msgid ""
+"\n"
+"==========================================================================\n"
+"A database schema update is needed and requires your consent.\n"
+"\n"
+"{reasons}\n"
+"\n"
+"To continue without changes, you need to downgrade to an earlier\n"
+"version of CherryMusic.\n"
+"\n"
+"To backup your database files first, abort for now and find them here:\n"
+"\n"
+"{dblocation}\n"
+"\n"
+"==========================================================================\n"
+"Run schema update? [y/N]: "
+msgstr ""
+"\n"
+"==========================================================================\n"
+"Une mise à jour du schéma de la base de données s'impose et nécessite votre "
+"accord.\n"
+"\n"
+"{reasons}\n"
+"\n"
+"Pour continuer sans changement, vous devez revenir à une version antérieure "
+"de CherryMusic.\n"
+"\n"
+"Pour procéder à une sauvegarde préalable de vos fichiers de base de données, "
+"interrompez le script et sauvegardez vos fichiers localisés ici :\n"
+"\n"
+"{dblocation}\n"
+"\n"
+"==========================================================================\n"
+"Procéder à la mise à jour du schéma de la base de données ? [y/N]: "
+
+#: cherrymusicserver/__init__.py:567
+#, python-format
+msgid ""
+"New configuration options available:\n"
+"                    %s\n"
+"                Using default values for now."
+msgstr ""
+"De nouvelles options de configuration sont disponibles :\n"
+"                    %s\n"
+"                Utilisation des valeurs par défaut pour l'instant."
+
+#: cherrymusicserver/__init__.py:572
+#, python-format
+msgid ""
+"The following configuration options are not used anymore:\n"
+"                    %s"
+msgstr ""
+"Les options de configurations suivantes ne sont plus utilisées :\n"
+"                    %s"
+
+#: cherrymusicserver/__init__.py:576
+msgid ""
+"Start with --newconfig to generate a new default config file next to your "
+"current one."
+msgstr ""
+"Démarrer avec l'option --newconfig pour générer un nouveau fichier de "
+"configuration par défaut à côté de votre fichier actuel."
+
+#: cherrymusicserver/database/sql.py:266
+msgid "Exception while updating database schema."
+msgstr "Exception levée lors de la mise à jour du schéma de base de données."
+
+#: cherrymusicserver/database/sql.py:267
+msgid ""
+"Database error. This is probably due to your version of sqlite being too old. "
+"Try updating sqlite3 and updating python. If the problem persists, you will "
+"need to delete the database at "
+msgstr ""
+"Erreur de base de données. Ceci est probablement imputable à votre version "
+"obsolète de sqlite. Essayez de mettre à jour sqlite3 ainsi que votre "
+"interpréteur python. Si le problème persiste, vous devrez effacer le fichier "
+"de base de données situé ici : "
+
+#: cherrymusicserver/playlistdb.py:53
+msgid "This playlist doesn't exist! Nothing deleted!"
+msgstr "Cette liste de lecture n'existe pas ! Rien à supprimer !"
+
+#: cherrymusicserver/playlistdb.py:55
+msgid "This playlist belongs to another user! Nothing deleted."
+msgstr ""
+"Cette liste de lecture appartient à un autre utilisateur ! Rien à supprimer !"
+
+#: cherrymusicserver/playlistdb.py:62
+msgid "I will not create an empty playlist. sorry."
+msgstr "Désolé mais je ne crée pas des listes de lecture vides."
+
+#: cherrymusicserver/playlistdb.py:76
+msgid "This playlist name already exists! Nothing saved."
+msgstr ""
+"Une liste de lecture portant ce nom existe déjà ! Rien n'a été sauvegardé."
+
+#: cherrymusicserver/httphandler.py:131
+msgid "Not secure, redirecting..."
+msgstr "Connexion non sécurisée, redirection en cours…"
+
+#: cherrymusicserver/httphandler.py:160
+#, python-brace-format
+msgid "user {name} just logged in."
+msgstr "l'utilisateur {name} vient de s'authentifier."
+
+#: cherrymusicserver/httphandler.py:186
+msgid ""
+"\n"
+"            Dropping all sessions! Try not to change between python 2 and 3,\n"
+"            everybody has to relogin now."
+msgstr ""
+"\n"
+"            Fermeture de toutes les sessions! Contournement bug #1216 dans "
+"cherrypy,\n"
+"            Tout le monde doit de reconnecter."
+
+#: cherrymusicserver/httphandler.py:215
+#, python-brace-format
+msgid "Rejected remote admin login from user: {name}"
+msgstr "Rejet de la tentative de connexion admin de l'utilisateur : {name}"
+
+#: cherrymusicserver/httphandler.py:463
+msgid "Fetching album art for keywords {keywords!r}"
+msgstr "Recherche de jaquettes à partir des mot clés {keywords!r}"
+
+#: cherrymusicserver/httphandler.py:507
+msgid "processing whole search request"
+msgstr "traitement de la reque de recherche globale"
+
+#: cherrymusicserver/httphandler.py:509
+msgid "rendering search results as json"
+msgstr "rendu json des résultats de la recherche"
+
+#: cherrymusicserver/httphandler.py:678
+msgid "Please log in"
+msgstr "Merci de vous authentifier"
+
+#: cherrymusicserver/httphandler.py:688
+msgid "Unknown playlist format: {format!r}"
+msgstr "Format de liste de lecture inconnu : {format!r}"
+
+#: cherrymusicserver/httphandler.py:692
+msgid "No playlists found"
+msgstr "Aucune liste de lecture n'a été trouvée"
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:70
+msgid ""
+"\n"
+"                    BASEDIR specifies where the media that should be\n"
+"                    served is located. It must be an absolute path, e.g.\n"
+"                    BASEDIR=/absolute/path/to/media.\n"
+"\n"
+"                    Links: If your operating system supports them,\n"
+"                    you can use symlinks directly in BASEDIR. Links to\n"
+"                    directories which contain BASEDIR will be ignored,\n"
+"                    just like all links not directly in, but in sublevels\n"
+"                    of BASEDIR. This is to guard against the adverse\n"
+"                    effects of link cycles.\n"
+"                            "
+msgstr ""
+"\n"
+"                    BASEDIR (dossier principal) indique où  est situé le "
+"dossier contenant \n"
+"                    les media devant être servis. Ce doit être un chemin "
+"absolu, e.g.\n"
+"                    BASEDIR=/chemin/complet/vers/les/media.\n"
+"\n"
+"                    Liens : Si votre système d'exploitation est évolué,\n"
+"                    vous pouvez définir dans le dossier BASEDIR des liens "
+"symboliques \n"
+"                    vers vos médias. Les liens vers des sous-dossiers de "
+"BASEDIR ne seront \n"
+"                    pas pris en compte, à quelque niveau de hiérarchie que ce "
+"soit afin \n"
+"                    d'éviter des effets de liens infinis.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:86
+msgid ""
+"\n"
+"                    TRANSCODE (experimental!) enables automatic live "
+"transcoding\n"
+"                    of the media to be able to listen to every format on "
+"every device.\n"
+"                    This requires you to have the appropriate codecs "
+"installed.\n"
+"                    Please note that transcoding will significantly increase "
+"the stress on the CPU!\n"
+"                            "
+msgstr ""
+"\n"
+"                    TRANSCODE (experimental!) permet le transcodage "
+"automatique à la volée\n"
+"                    des media afin de pouvoir écouter n'importe quel format "
+"audio sur n'importe quel appareil.\n"
+"                    Cela nécessite que les codecs appropriés soient installés "
+"au préalable.\n"
+"\n"
+"                    Veuillez noter que le transcodage à la volée augmente la "
+"consommation de ressources CPU!\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:96
+msgid ""
+"\n"
+"                    Tries to fetch the album cover from various locations in "
+"the web,\n"
+"                    if no image is found locally. By default it will be "
+"fetched from iTunes.\n"
+"                    They will be shown next to folders that qualify as a "
+"possible\n"
+"                    album.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Tente de télécharger les jaquettes des album à partir de "
+"différentes ressources du web,\n"
+"                    si aucune image n'est trouvée en local. Par défaut, on "
+"essaiera depuis iTunes.\n"
+"                    Les jaquettes seront affichées à côtés des dossiers "
+"supposés contenir un album.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:106
+msgid ""
+"\n"
+"                    Show the number of sub-folders and tracks contained\n"
+"                    in any folder. This will increase the stress for the\n"
+"                    server, so if you're running CherryMusic on a 386DX II\n"
+"                    or similar, it is recommended to deactivate this "
+"feature.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Affiche le nombre de sous-dossiers et de pistes de chaque "
+"dossier.\n"
+"                    Cela entraîne une plus grande consommation de ressources "
+"CPU \n"
+"                    sur le serveur, aussi, si vous faîtes tourner CherryMusic "
+"sur un 386DX II\n"
+"                    ou assimilé, il est fortement recommandé de désactiver "
+"cette option.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:120
+msgid "megabytes"
+msgstr "mégaoctets"
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:117
+#, python-brace-format
+msgid ""
+"\n"
+"                    Maximum size in bytes of all files to be downloaded in "
+"one zipfile.\n"
+"                    Defaults to {default_value} {default_unit}.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Taille maximale en octets de tous les fichiers pouvant "
+"être téléchargés en une unique archive zip.\n"
+"                    Par défaut : {default_value} {default_unit}.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:125
+msgid ""
+"\n"
+"                    MAXRESULTS sets the maximum amount of search results\n"
+"                    to be displayed. If MAXRESULTS is set to a higher value,\n"
+"                    the search will take longer, but will also be more "
+"accurate.\n"
+"                            "
+msgstr ""
+"\n"
+"                    MAXRESULTS indique le nombre maximal de résultats de "
+"recherche à afficher.\n"
+"                    Plus MAXRESULTS est grand, plus la recherche sera longue, "
+"mais plus le résultat sera précis.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:134
+msgid ""
+"\n"
+"                    This will load parts of the database into memory for "
+"improved\n"
+"                    performance. This option should only be used on systems "
+"with\n"
+"                    sufficient memory, because it will hurt the performance "
+"otherwise.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Permet de charger en mémoire une partie de la base de "
+"données afin d'améliorer les performances.\n"
+"                    Ne devrait être utilisé que sur des serveurs suffisamment "
+"équipés de mémoire sous peine de dégrader les performances.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:143
+msgid ""
+"\n"
+"                    MAXSHOWFILES specifies how many files and folders should\n"
+"                    be shown at the same time. E.g. if you open a folder\n"
+"                    with more than MAXSHOWFILES, the files will be grouped\n"
+"                    according to the first letter in their name.\n"
+"                    100 is a good value, as a CD can have up to 99 tracks.\n"
+"                            "
+msgstr ""
+"\n"
+"                    MAXSHOWFILES indique combien de fichiers et dossiers "
+"doivent être affichés en même temps\n"
+"                    E.g. si vous ouvrez un dossier contenant plus de "
+"MAXSHOWFILES éléments, les fichiers seront \n"
+"                    groupés selon la première lettre de leur nom.\n"
+"                    100 est une bonne valeur, puisqu'un CD ne peut contenir "
+"plus de 99 pistes.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:154
+msgid ""
+"\n"
+"                    Only use the media database, never the filesystem, for "
+"content\n"
+"                    lookups in browser and search. Useful if the media files "
+"reside\n"
+"                    on an external hard drive or behind a slow network "
+"connection.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Utiliser uniquement la base de données, et jamais le "
+"système de fichiers, pour parcourir les pistes \n"
+"                    et pour les recherches. Utile si les fichiers de média "
+"sont stockés sur un périphérique lent \n"
+"                    (disque dur externe, connexion réseau lente, …).\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:163
+msgid "The port the server will listen to."
+msgstr "Numéro de port sur lequel le serveur doit se mettre à l'écoute."
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:168
+msgid ""
+"When set to true, the server will listen on a IPv6\n"
+"                          socket instead of IPv4"
+msgstr ""
+"Paramétré à True, le serveur écoutera une socket IPv6\n"
+"                          au lieu de IPv4"
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:174
+msgid ""
+"\n"
+"                    When localhost_only is set to true, the server will not\n"
+"                    be visible in the network and only play music on the\n"
+"                    same computer it is running on.\n"
+"\n"
+"                    Activating this option binds the server to IP 127.0.0.1 "
+"or\n"
+"                    [::1], depending on whether server.ipv6_enabled is true.\n"
+"                    The server should also be reachable as \"localhost\" in "
+"any\n"
+"                    case.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Paramétré à True, le serveur ne sera pas visible sur le "
+"réseau local et l'on ne pourra écouter la musique que sur le serveur lui-"
+"même.\n"
+"\n"
+"                    Activer cette option attache le serveur sur l'adresse IP "
+"127.0.0.1 ou [::1], selon que l'option server.ipv6_enabled est activée ou "
+"non.\n"
+"                    Le serveur devrait être accessible en tant que \"localhost"
+"\" dans tous les cas.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:188
+msgid ""
+"\n"
+"                    The path cherrymusic will be available on. Normally\n"
+"                    you'll want to leave it as '/', so that CherryMusic is\n"
+"                    available under e.g. localhost:8080. You might want to\n"
+"                    change the path if CherryMusic runs behind a reverse\n"
+"                    proxy. Changing it to '/cherrymusic' will make it "
+"available\n"
+"                    under e.g. localhost:8080/cherrymusic\n"
+"                                "
+msgstr ""
+"\n"
+"                    Chemin où cherrymusic sera accessible. Normalement, vous "
+"souhaiterez laisser '/', afin que CherryMusic soit accessible à l'URL "
+"suivante : localhost:8080\n"
+"                    Vous pourriez avoir besoin de changer cette valeur si "
+"CherryMusic tourne derrière un proxy inverse.\n"
+"\n"
+"                    Changer cette valeur pour '/cherrymusic' rendra "
+"CherryMusic accessible à l'URL suivante : localhost:8080/cherrymusic\n"
+"                                "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:201
+msgid ""
+"\n"
+"                    When localhost_auto_login is set to \"True\", the server "
+"will\n"
+"                    not ask for credentials when using it locally. The user "
+"will\n"
+"                    be automatically logged in as admin.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Quand localhost_auto_login est paramétré à \"True\", le "
+"serveur ne nécessite pas d'authentification quand il est utilisé en local.\n"
+"                    L'utilisateur est alors automatiquement connecté en tant "
+"qu'administrateur.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:210
+msgid ""
+"\n"
+"                    When permit_remote_admin_login is set to \"False\", admin "
+"users\n"
+"                    may only log in from the computer cherrymusic is "
+"currently\n"
+"                    running on. This can improve security.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Quand permit_remote_admin_login est paramétré à \"False"
+"\", les utilisateurs administrateurs ne peuvent se connecter que depuis le "
+"serveur où tourne ChrryMusic.\n"
+"                    Cela permet d'augmenter la sécurité de l'installation.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:219
+msgid ""
+"\n"
+"                    Will keep the user sessions in RAM instead of a file in "
+"the\n"
+"                    configuration directory. This means, that any unsaved\n"
+"                    playlists will be lost when the server is restarted.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Paramétré à \"True\", permet au serveur de conserver les "
+"sessions utilisateurs en mémoire RAM au lieu d'un fichier dans le dosser de "
+"configuration\n"
+"                    Cela entraîne que toute liste de lecture non sauvegardée "
+"sera perdue au redémarrage du serveur.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:228
+msgid ""
+"\n"
+"                    The following options allow you to use cherrymusic with\n"
+"                    https encryption. If ssl_enabled is set to \"False\", all "
+"other\n"
+"                    ssl options will be ommited.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Les options suivantes permettent de mettre en œuvre le "
+"cryptage https.\n"
+"                    Si ssl_enabled est configuré à \"False\", toute les "
+"options SSL sont ignorées.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:237
+msgid ""
+"\n"
+"                    The port that will listen to SSL encrypted requests. If\n"
+"                    ssl_enabled is set to \"True\", all unencrypted HTTP "
+"requests\n"
+"                    will be redirected to this port.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Numéro de port sur lequel CherryMusic doit se mettre en "
+"écoute des requêtes HTTPS sécurisées par SSL.\n"
+"                    Si ssl_enabled est paramétré à \"True\", toutes les "
+"requêtes non sécurisées seront redirigées vers ce port.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:246
+msgid ""
+"\n"
+"                    The SSL certiticate sent to the client to verify the\n"
+"                    server's authenticity. A relative path is relative to "
+"the\n"
+"                    location of the CherryMusic configuration file.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Chemin vers le certificat SSL qui sera envoyé au client "
+"afin de lui permettre de vérifier l'authenticité du serveur.\n"
+"                    Un chemin relatif est relatif par rapport au fichier de "
+"configuration de CherryMusic.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:255
+msgid ""
+"\n"
+"                    SSL private key file used by the server to decrypt and "
+"sign\n"
+"                    secure communications. Keep this one secret!  A relative\n"
+"                    path is relative to the location of the CherryMusic\n"
+"                    configuration file.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Fichier contenant la clé privée SSL pour déchiffrer et "
+"signer les communications sécurisées.\n"
+"                    Attention : garder ce fichier secret ! \n"
+"                    Un chemin relatif est relatif par rapport au fichier de "
+"configuration de CherryMusic.\n"
+"                            "
+
+#. i18n: Don't mind whitespace - string will be re-wrapped automatically. Use blank lines to separate paragraphs.
+#: cherrymusicserver/configuration.py:265
+msgid ""
+"\n"
+"                    Notify admins about available security and feature "
+"updates.\n"
+"                            "
+msgstr ""
+"\n"
+"                    Informe les administrateurs de la disponibilité de mises "
+"à jour de sécurité ou fonctionnelles.\n"
+"                            "
+
+#: cherrymusicserver/configuration.py:277
+#, python-format
+msgid "configuration file not found: %(filepath)s"
+msgstr "fichier de configuration non trouvé : %(filepath)s"
+
+#: cherrymusicserver/configuration.py:280
+#, python-format
+msgid "configuration path is not a file: %(filepath)s"
+msgstr "le dossier de configuration n'est pas un fichier : %(filepath)s"
+
+#: cherrymusicserver/browsersetup.py:71
+msgid "resizing of album covers"
+msgstr "redimensionnement des jaquettes d'album"
+
+#: cherrymusicserver/browsersetup.py:72
+msgid "The executable \"convert\" was not found in you PATH"
+msgstr "Le programme \"convert\" n'a pas pu été trouvé à partir de votre PATH"
+
+#: cherrymusicserver/browsersetup.py:75
+msgid "encoding and decoding of OGGs"
+msgstr "codage et décodage des fichiers OGG"
+
+#: cherrymusicserver/browsersetup.py:76
+msgid "The executables \"oggenc\" and \"oggdec\" were not found in you PATH"
+msgstr ""
+"Les programmes \"oggenc\" et \"oggdec\" n'ont pas pu été trouvés à partir de "
+"votre PATH"
+
+#: cherrymusicserver/browsersetup.py:79
+msgid "encoding and decoding of MP3s"
+msgstr "encodage et décodage de fichiers MP3"
+
+#: cherrymusicserver/browsersetup.py:80
+msgid "The executable \"lame\" was not found in you PATH"
+msgstr "Le programme \"lame\" n'a pas pu été trouvé à partir de votre PATH"
+
+#: cherrymusicserver/browsersetup.py:83
+msgid "encoding and decoding of FLACs"
+msgstr "encodage et décodage de fichiers FLAC"
+
+#: cherrymusicserver/browsersetup.py:84
+msgid "The executable \"flac\" was not found in you PATH"
+msgstr "Le programme \"flac\" n'a pas pu été trouvé à partir de votre PATH"
+
+#: cherrymusicserver/browsersetup.py:87
+msgid "decoding OGG, MP3, FLAC, WMA and AAC"
+msgstr "décodage de fichiers OGG, MP3, FLAC, WMA et AAC"
+
+#: cherrymusicserver/browsersetup.py:88
+msgid "The executable \"mplayer\" was not found in you PATH"
+msgstr "Le programme \"mplayer\" n'a pas pu été trouvé à partir de votre PATH"
+
+#: cherrymusicserver/browsersetup.py:159
+#, python-brace-format
+msgid ""
+"\n"
+"Starting setup server on port {port} ...\n"
+"Open your browser and put the server IP:{port} in the address bar.\n"
+"If you run the server locally, use: localhost:{port}.\n"
+msgstr ""
+"\n"
+"Démarrage du serveur sur le port {port} ...\n"
+"Ouvrez votre navigateur et indiquez l'adresse IP du serveur suivie de :{port} "
+"dans la barre d'adresse.\n"
+"Si vous utilisez un serveur installé en local, utilisez l'adresse : localhost:"
+"{port}.\n"
